@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tablestyles.css">
+    <title>ROI Departures</title>
+  </head>
+  <body>
+        <h2>Navigation</h2>
+        <a href="index2.html">Front page</a>
+        <br> 
+        <a href="contactform.html">Contact me</a>
+        <br> 
+        <a href="pictures.html">Gallery of cat pictures</a>
+        <br>
+        <a href="rollo_depart.html"><b>Rovaniemi departures</b></a>
+        <br>
+        <a href="textformatting.html">Text formatting exercise</a>
+        <br> 
+        <a href="headingtest.html">Headings exercise</a>
+        <br>
+        <a href="punkalaidunlinks.html">Punkalaidun - Ihanan keskellä</a>
+        <br>
+        <a href="listtest.html">List test exercise</a>
+
+    <h1>Rovaniemi departures</h1>
+
+    <table class="schedule train">
+        <caption>Rovaniemi Train schedules 20.1.2026</caption>
+        <tr>
+            <th>Departs</th>
+            <th>Train</th>
+            <th>Destination</th>
+            <th>Track</th>
+        </tr>
+        <tr>
+            <td>13:02</td> <!--Departs-->
+            <td>IC 34</td> <!--Train-->
+            <td>Helsinki</td> <!--Destination-->
+            <td>1</td> <!--Track-->
+        </tr>
+        <tr>
+            <td>15:35</td> <!--Departs-->
+            <td>S 28</td> <!--Train-->
+            <td>Helsinki</td> <!--Destination-->
+            <td>1</td> <!--Track-->
+        </tr>
+        <tr>
+            <td>17:52</td> <!--Departs-->
+            <td>PYO 266</td> <!--Train-->
+            <td>Helsinki</td> <!--Destination-->
+            <td>1</td> <!--Track-->
+        </tr>
+        <tr>
+            <td>21:00</td> <!--Departs-->
+            <td>PYO 274</td> <!--Train-->
+            <td>Helsinki</td> <!--Destination-->
+            <td>1</td> <!--Track-->
+        </tr>
+
+    </table>
+        <a href="https://www.junat.net" target="_blank" rel="noopener noreferrer">
+        Source: www.junat.net
+        </a>
+
+    <br>
+    <br>
+
+    <table class="schedule flight">
+        <caption>Rovaniemi Flight schedules 20.1.2026</caption>
+        <tr>
+            <th>Departs</th>
+            <th>Flight</th>
+            <th>Destination</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>12:05</td> <!--Departs-->
+            <td>EC5342</td> <!--Flight-->
+            <td>Berlin</td> <!--Destination-->
+            <td>Departed</td> <!--Status-->
+        </tr>
+        <tr>
+            <td>13:00</td> <!--Departs-->
+            <td>EC1650</td> <!--Flight-->
+            <td>Nizza</td> <!--Destination-->
+            <td>Gate closed</td> <!--Status-->
+        </tr>
+        <tr>
+            <td>13:05</td> <!--Departs-->
+            <td>U22284</td> <!--Flight-->
+            <td>Manchester</td> <!--Destination-->
+            <td>Gate closed</td> <!--Status-->
+        </tr>
+        <tr>
+            <td>13:30</td> <!--Departs-->
+            <td>EC4686</td> <!--Flight-->
+            <td>Paris - CDG</td> <!--Destination-->
+            <td>NULL</td> <!--Status-->
+        </tr>
+
+    </table>
+        <a href="https://www.finavia.fi/fi/lentoasemat/rovaniemi/lennot" target="_blank" rel="noopener noreferrer">
+        Source: https://www.finavia.fi/fi/lentoasemat/rovaniemi/lennot
+        </a>
+    <br>
+    <br>
+
+    <table class="schedule buss">
+        <caption>Rovaniemi Bus schedules 20.1.2026</caption>
+        <tr>
+            <th>Departs</th> <th>Arrives</th>
+            <th>Line</th>
+            <th>Destination</th>
+            <th>Platform</th>
+            <th>Operator</th>
+        </tr>
+        <tr>
+            <td>11:25</td> <!--Departs-->
+            <td>13:05</td> <!--Arrives-->
+            <td>OB42</td> <!--Busline-->
+            <td>Sodankylä</td> <!--Destination-->
+            <td>3</td> <!--Platform-->
+            <td>Onnibus</td> <!--Operator-->
+        </tr>
+        <tr>
+            <td>11:45</td> <!--Departs-->
+            <td>13:25</td> <!--Arrives-->
+            <td>Express</td> <!--Busline-->
+            <td>Sodankylä</td> <!--Destination-->
+            <td>2</td> <!--Platform-->
+            <td>Lapin Linjat</td> <!--Operator-->
+        </tr>
+        <tr>
+            <td>13:15</td> <!--Departs-->
+            <td>14:55</td> <!--Arrives-->
+            <td>Local</td> <!--Busline-->
+            <td>Sodankylä</td> <!--Destination-->
+            <td>3</td> <!--Platform-->
+            <td>JBus Oy</td> <!--Operator-->
+        </tr>
+        <tr>
+            <td>17:20</td> <!--Departs-->
+            <td>18:55</td> <!--Arrives-->
+            <td>Express</td> <!--Busline-->
+            <td>Sodankylä</td> <!--Destination-->
+            <td>3</td> <!--Platform-->
+            <td>Lapin Linjat</td> <!--Operator-->
+        </tr>
+
+    </table>
+        <a href="https://www.matkahuolto.fi" target="_blank" rel="noopener noreferrer">
+        Source: www.matkahuolto.fi
+        </a>
+
+    <br>
+    <br>
+    <small>
+    Tables by: Joona Kallinen
+    <br>
+    Emme vastaa aikatauluista tai niiden muutoksista och samma på svenska.
+    </small>
+
+    <br>
+    <br>
+
+    <h1>Lorem Ipsum</h1>
+        <h2>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h2>
+        <h3>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h3>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu interdum felis. Nulla eget tortor dui. Donec luctus aliquet arcu ullamcorper blandit.
+            <br>
+            Vivamus nec dui eu leo tempor efficitur ac ac urna. Pellentesque hendrerit at tellus nec malesuada. Phasellus euismod rutrum lectus a convallis.
+            <br>
+            Pellentesque fermentum vulputate lacus vitae malesuada. Maecenas lobortis, lacus nec mollis mollis, enim nibh dignissim dui.
+        </p>
+            Nec tristique metus ante consectetur nisl. Duis consectetur libero nulla, eget convallis nisl elementum ac. Nam at ipsum eu ex viverra porttitor.
+            <br>
+            Donec et erat nunc. Morbi ac diam justo. Nulla eu leo eu dolor interdum ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        <br>
+            Morbi eu orci in odio lobortis elementum vitae a lorem. Aenean quis tellus eget erat placerat consequat quis ac nisi. Donec in fermentum metus.
+
+<br>
+<br>
+
+</body>
+</html>
+
