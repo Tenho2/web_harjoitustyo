@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Form</title>
+    </head>
+
+<body>
+    <h1>Contact Form</h1>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firsthame" placeholder="Your name..">
+    <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder=" Your lastname..">
+    <br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="finland">Finland</option>
+            <option value="sweden">Sweden</option>
+            <option value="norway">Norway</option>
+        </select>
+    <br>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    <br>
+    <br>
+        <label for="address">Address</label>
+        <textarea id="address" name="address" placeholder="Enter your address here.."></textarea>       
+    <br>
+          <button type="submit">Submit Form</button>
+
+    <br>
+    <h2>The select Element</h2>
+        <label for="cars">Choose a car:</label><br>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    <br>
+    <br>
+        <p>Feedback type:</p>
+        <input type="radio" id="question" name="feedback_type" value="question">
+        <label for="question">Question</label>
+    <br>
+        <input type="radio" id="feedback" name="feedback_type" value="feedback">
+        <label for="feedback">Feedback</label>
+    <br>    
+        <input type="radio" id="error" name="feedback_type" value="error">
+        <label for="error">Report error</label>
+    <br>
+    <br>
+        <label for="subject">Message:</label><br>
+        <textarea id="message" name="subject" rows="4" cols="40" placeholder="Write here.."></textarea>
+    <br>
+    <br>
+
+        <input type="submit" value="Submit Form">
+    </form>
+
+</body>
+</html>

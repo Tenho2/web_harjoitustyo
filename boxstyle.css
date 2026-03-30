@@ -1,0 +1,15 @@
+/* Joona Kallinen*/
+/* "CSS reset" */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for container class*/
+.container {
+    border:20px double red;
+    font-size:2rem;
+    margin: 2rem;
+    padding: 4rem;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form with CSS</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+
+    <form>
+        <h1>Contact Form</h1>
+        <ul>
+            <li>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..." autofocus>
+            </li>
+            <li>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            </li>
+            <li>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="finland">Finland</option>
+                    <option value="sweden">Sweden</option>
+                    <option value="norway">Norway</option>
+                    <option value="poland">Poland</option>
+                </select>
+            </li>
+            <li>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Submit Form</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

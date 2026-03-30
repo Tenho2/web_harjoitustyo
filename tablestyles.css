@@ -1,0 +1,67 @@
+/* Taulukon yleiset asetukset */
+.schedule {
+    border-collapse: collapse; /* Yhdistää reunaviivat */
+    margin: 25px 0;           /* Tyhjää tilaa ylös ja alas */
+    font-size: 0.9em;         /* Hieman pienempi fontti taulukkoon */
+    font-family: sans-serif;
+    min-width: 400px;         /* Taulukon minimileveys */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Varjostus */
+}
+
+.schedule thead th {            /* Otsikkorivin muotoilu */
+    background-color: #009879; /* Vihreä tausta */
+    color: #ffffff;            /* Valkoinen teksti */
+    text-align: left;
+}
+
+.schedule th,                           /* Solujen (th ja td) muotoilu */
+.schedule td {
+    padding: 12px 15px;                 /* Ilmavuutta soluihin */
+}
+
+.schedule tbody tr {                    /* Sisältörivien (tbody) muotoilu */
+    border-bottom: 1px solid #dddddd; /* Ohut viiva rivien väliin */
+}
+
+.schedule tbody tr:nth-of-type(even) {  /* Joka toinen rivi vaaleanharmaa */
+    background-color: #f3f3f3;
+}
+
+.schedule tbody tr:last-of-type {   /* Viimeisen rivin alareuna paksummaksi vihreäksi */
+    border-bottom: 2px solid #009879;
+}
+
+.schedule tbody tr:hover {          /* Hover-efekti: Kun hiiri on rivin päällä */
+    color: #009879;
+    font-weight: bold;
+    cursor: default;
+}
+
+.schedule.train thead th {          /* Junat vihreä alaviiva */
+    background-color: #009879;
+}
+.schedule.train tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.schedule.flight thead th {         /* Lennot sininen alaviiva*/
+    background-color: #007bff;
+}
+.schedule.flight tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+}
+
+.schedule.flight tbody tr:hover {   /* Lentojen hover teksti siniseksi */
+    color: #007bff;
+}
+
+.schedule.buss thead th {
+    background-color: #dc3545;
+}
+.schedule.buss tbody tr:last-of-type { /* bussit punainen alaviiva */
+    border-bottom: 2px solid #dc3545;
+}
+
+.schedule.buss tbody tr:hover { /* Bussien hover teksti punaiseksi */
+    color: #dc3545;
+}

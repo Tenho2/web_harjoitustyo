@@ -1,0 +1,62 @@
+h1 {
+    color: green;   /* h1 otsikko vihreäksi */
+    font-family: "Audiowide", sans-serif;    /* h1 otsikko Google Audiowide fontilla */
+    }
+
+h2 {
+    color: orange;  /* h2 otsikko oranssiksi */
+    }
+
+.frontpage {
+    background-color: rgb(148, 153, 140);   /* Sivun taustaväri */
+}
+
+.contactform{
+    background-image: url('background.jpg');    /* Lisätään taustakuva */
+    background-repeat: no-repeat;   /* Estetään kuvan toistuminen, jos se on pieni */
+    background-size: cover;     /* Venyttää kuva peittämään koko näytön */
+    background-position: center;        /* määritettää kuvan sijainnin */
+}
+
+.frontpage p, .txtf p {
+    color: darkblue;    /* Teksti siniseksi */
+    line-height: 1.5;   /* Riviväli */
+    text-align: center; /* Keskitetys */
+}
+.left {
+    text-align: left !important;    /* Pitää "This page was created" tekstin vasemmalla */
+}               /* "!important" pitää tekstin väkisin vasemmalla */
+
+ul {
+    list-style-type: square; 
+    padding-left: 20px;             /* Pieni sisennys reunasta */
+}
+
+.fancy_list {
+    list-style-type: "✅";          /* Käyttää emojia listamerkkinä */
+}
+
+ol {
+    list-style-type: upper-roman;   /* Vaihdetaan numerot (1,2,3) roomalaisiksi (I, II, III) */
+    color: darkred;               /* Listamerkit tummanpunaisiksi */
+}
+
+li {
+    margin-bottom: 8px;             /* Tekee listasta helpommin luettavan */
+    color: black;               /* Varmistetaan että itse teksti on mustaa */
+}
+
+a {
+    color: darkgreen;          /* Linkin väri */
+    text-decoration: none;       /* Poistaa alleviivauksen */
+    font-weight: bold;           /* Lihavointi */
+    font-size: 1.1rem;           /* Suurempi teksti */
+}
+a:hover {                       /* Kun hiiri viedään linkin päälle (Hover) */
+    color: orange;               /* Väri vaihtuu oranssiksi */
+    text-decoration: underline; /* Alleviivaus takaisin */
+    cursor: pointer;            /* Varmistaa  */
+}
+a:visited {
+    color: purple;             /* Linkki joka on avattu violetiksi */      
+}
